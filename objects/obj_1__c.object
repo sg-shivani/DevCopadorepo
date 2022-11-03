@@ -184,4 +184,13 @@
         <type>Text</type>
         
     </fields>
+    <fields>
+        <fullName>New_Field2__c</fullName>
+        <externalId>false</externalId>
+        <label>New Field 2</label>
+        <length>200</length>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        
+    </fields>
 </CustomObject>
