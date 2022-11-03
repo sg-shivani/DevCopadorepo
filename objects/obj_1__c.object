@@ -163,8 +163,19 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
-   
-    
+    <fields>
+        <fullName>lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Obj 2</label>
+        <referenceTo>Obj_2__c</referenceTo>
+        <relationshipLabel>obj 1</relationshipLabel>
+        <relationshipName>obj_1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>Add_Files__c</fullName>
         <externalId>false</externalId>
@@ -176,21 +187,12 @@
         <visibleLines>25</visibleLines>
     </fields>
     <fields>
-        <fullName>New_Field__c</fullName>
+        <fullName>New_checkbox_field__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>New Field</label>
-        <length>200</length>
+        <label>New checkbox field</label>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        
-    </fields>
-    <fields>
-        <fullName>New_Field2__c</fullName>
-        <externalId>false</externalId>
-        <label>New Field 2</label>
-        <length>200</length>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        
+        <type>Checkbox</type>
     </fields>
 </CustomObject>
