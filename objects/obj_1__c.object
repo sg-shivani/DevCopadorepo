@@ -187,4 +187,12 @@
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
+    <fields>
+        <fullName>New_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>New Field</label>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        
+    </fields>
 </CustomObject>
