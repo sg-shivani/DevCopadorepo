@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Dog API Demo using LWC" variant="Narrow">
+        <lightning-button variant="Success" label="Get Random Dogs" onclick={handleClick}></lightning-button>
+    
+    </br>
+    </br>
+    <template if:true={imageReady}>
+        <img src={pictureUrl} height="350" width="350" alt="Dog Image"/>
+    </template>
+
+    <template if:true={loadingSPinner}>
+        <lightning-spinner size="Large" alternative-text="Loading..."></lightning-spinner>
+    </template>
+
+    </lightning-card>
+</template>

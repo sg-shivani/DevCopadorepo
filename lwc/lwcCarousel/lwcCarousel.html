@@ -1,0 +1,19 @@
+<template>
+ 
+    <lightning-carousel>
+        <template if:true={players}>
+            <template for:each={players} for:item="cricketer">
+                <lightning-carousel-image
+                key={cricketer.id}
+                src={cricketer.src}
+                header={cricketer.header}
+                description={cricketer.description}
+                alternative-text="Server Error"
+                href={cricketer.href}
+                >          
+                </lightning-carousel-image>        
+            </template>
+        </template>
+    </lightning-carousel>
+
+</template>
